@@ -1,0 +1,85 @@
+body{
+    background-color: lightgray;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 15px;
+    font-style: italic;
+}
+.conteret{
+   margin-left: 29em;
+   margin-right: 12em;
+}
+.logo{
+    padding: 1px;
+    margin-left: auto;
+    width: 150px;
+    height: 150px;
+    border: 1px dashed black;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+i{
+    font-size: 25px;
+    margin-right: 15px;
+}
+.blue {
+    color: blue;
+}
+.instagram{
+    color: #e4405f;
+}
+.youtube{
+    color: red;
+}
+  
+.menu {
+    display: flex;
+    align-items: center;
+}
+.pic{
+    width: 300px;
+}
+.text{
+    margin-left: 20px;
+}
+h3{
+    text-align: center;
+    border-bottom: 2px solid gray;
+    font-family: Helvetica, sans-serif;
+}
+.car-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    justify-items: center;
+  }
+.car-card {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: whitesmoke;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.car-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .car-card p {
+    margin-top: 10px;
+  }
+  .car-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .car-card:hover {
+    transform: translateY(-10px);
+  }
