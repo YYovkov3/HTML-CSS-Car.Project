@@ -37,16 +37,19 @@ i{
 .youtube{
     color: red;
 }
-  
-.menu {
+.menu{
+    margin-top: 20px;
+    margin-left: 20px;
     display: flex;
-    align-items: center;
+    gap: 20px;
 }
 .pic{
     width: 300px;
+    border: 1px solid black;
+    border-radius: 4px;
 }
 .text{
-    margin-left: 20px;
+    font-size: 18px;
 }
 h3{
     text-align: center;
